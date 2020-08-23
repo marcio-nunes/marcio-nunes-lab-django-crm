@@ -86,7 +86,7 @@ WSGI_APPLICATION = 'crm.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {}
-DATABASES['default '] = dj_database_url.config()
+DATABASES['default'] = dj_database_url.config()
 
 # DATABASES = {
 #     'default': {

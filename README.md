@@ -1,1 +1,1 @@
-"# marcio-nunes-lab-django-crm" 
+Projeto criado como exercício da plataforma de ensino open education Digital Innovation One. O projeto trata-se da elaboração de um CRUD de Cliente utilizando Python, Django e Bootstrap com autenticação.

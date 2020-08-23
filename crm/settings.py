@@ -31,8 +31,7 @@ SECRET_KEY = config('SECRET_KEY')
 #DEBUG = False
 DEBUG = config('DEBUG', cast=bool)
 
-ALLOWED_HOSTS = ['marcixdjangolab.herokuapp.com']
-# ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
+ALLOWED_HOSTS = config('ALLOWED_HOSTS', cast=Csv())
 
 # Application definition
 
@@ -135,4 +134,3 @@ STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 STATIC_URL = '/static/'
 
 LOGIN_URL = '/login/'
-# STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
